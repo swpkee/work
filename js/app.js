@@ -26,9 +26,27 @@ $(document).ready(function () {
         console.log("i");
         document.querySelector('#myNavigator').pushPage('view/detailmovie1.html');
       };
-    } else if (page.id === 'page2') {
+    } if (page.id === 'home') {
+
+      console.log("ii");
+
+      page.querySelector('#movie2').onclick = function () {
+        console.log("ii");
+        document.querySelector('#myNavigator').pushPage('view/detailmovie1.html');
+      };
+    }
+
+    if (page.id === 'home') {
+
+      console.log("iii");
+
+      page.querySelector('#movie3').onclick = function () {
+        console.log("iii");
+        document.querySelector('#myNavigator').pushPage('view/detailmovie1.html');
+      };
+    }
+    if (page.id === 'detail') {
       page.querySelector('ons-toolbar .center').innerHTML = page.data.title;
     }
   });
-})
-
+});

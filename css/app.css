@@ -1,14 +1,14 @@
 .tabbar {
-  background-color: rgb(0, 139, 23);
+  background-color: black;
 }
 .toolbar {
-  background-color: rgb(0, 139, 58);
+  background-color: black;
 }
 ons-carousel[fullscreen] {
   height: 80%;
 }
 :checked + .tabbar__button {
-  color: white;
+  color: green;
 }
 .bottom-bar,
 .toolbar__center,
@@ -16,11 +16,11 @@ ons-carousel[fullscreen] {
   font-family: "Anton", sans-serif;
   font-size: 28px;
   margin: 0;
-  color: white;
+  color: green;
   padding: 0;
 }
 .font1 {
   font-family: "Anton", sans-serif;
   font-size: 21px;
-  color: black;
+  color: green;
 }
